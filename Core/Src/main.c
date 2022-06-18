@@ -100,7 +100,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_GPIO_Toggle();
+	  HAL_GPIO_Toggle(LD_GPIO_Port, LD_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
